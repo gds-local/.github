@@ -1,8 +1,6 @@
 # GDS Local
 
-## GDS Local strengthens collaboration between central and local government to deliver better, more joined-up digital public services.
-
-GDS Local is a new unit within the Government Digital Service (GDS). It has been set up to strengthen collaboration, share learning and innovation between central and local government and improve digital services for citizens and communities across the UK.
+GDS Local is a unit within the Government Digital Service (GDS). It has been set up to strengthen collaboration, share learning and innovation between central and local government and improve digital services for citizens and communities across the UK.
 
 GDS Local will work directly with the MHCLG, the LGA and councils to:
 

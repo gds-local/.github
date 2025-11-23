@@ -13,7 +13,7 @@ GDS Local will work directly with the MHCLG, the LGA and councils to:
 - explore new approaches to digital services together
 - encourage learning networks to build skills and experience across local and national teams
 
-GDS Local forms part of the GDS blueprint for a modern digital government and contributes to plans to build a more productive and agile state.
+GDS Local forms part of the GDS [blueprint for a modern digital government](https://www.gov.uk/government/publications/a-blueprint-for-modern-digital-government/a-blueprint-for-modern-digital-government-html) and contributes to plans to build a more productive and agile state.
 
 GDS Local aims to make digital transformation faster, smarter, and more sustainable through better collaboration. This will help people benefit from services that work seamlessly across local and national government.
 

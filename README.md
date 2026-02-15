@@ -1,20 +1,89 @@
-# GDS Local
+# GDS Local Website
 
-## GDS Local strengthens collaboration between central and local government to deliver better, more joined-up digital public services.
+This is the GitHub Pages website for GDS Local, styled to match the official GDS blog design.
 
-GDS Local is a new unit within the Government Digital Service (GDS). It has been set up to strengthen collaboration, share learning and innovation between central and local government and improve digital services for citizens and communities across the UK.
+## Setup Instructions
 
-GDS Local will work directly with the MHCLG, the LGA and councils to:
+### Option 1: Using the GitHub Web Interface
 
-- support local authorities to scale digital innovation
-- promote shared standards and technology across local and central government
-- help make public services simpler, faster and more joined-up
-- share knowledge, insights, and best practice across local and central government
-- explore new approaches to digital services together
-- encourage learning networks to build skills and experience across local and national teams
+1. **Upload the files:**
+   - Go to your repository: https://github.com/gds-local/.github
+   - Click "Add file" > "Upload files"
+   - Drag and drop both `index.html` and `styles.css` files
+   - Commit the files to the main branch
 
-GDS Local forms part of the GDS blueprint for a modern digital government and contributes to plans to build a more productive and agile state.
+2. **Enable GitHub Pages:**
+   - Go to Settings > Pages
+   - Under "Build and deployment":
+     - Source: Select "Deploy from a branch"
+     - Branch: Select "main" and "/" (root)
+   - Click Save
 
-GDS Local aims to make digital transformation faster, smarter, and more sustainable through better collaboration. This will help people benefit from services that work seamlessly across local and national government.
+3. **View your site:**
+   - Your site will be available at: https://gds-local.github.io/.github/
+   - It may take a few minutes for the site to go live
 
-You can contact GDS Local directly at GDSlocal-info@dsit.gov.uk and [register your interest to hear more by completing this form](https://forms.office.com/e/pZzKSWfACV).
+### Option 2: Using Git Command Line
+
+```bash
+# Clone your repository
+git clone https://github.com/gds-local/.github.git
+cd .github
+
+# Add the website files
+# (Copy index.html and styles.css to this directory)
+
+# Commit and push
+git add index.html styles.css
+git commit -m "Add GDS Local website"
+git push origin main
+```
+
+Then follow step 2 from Option 1 to enable GitHub Pages.
+
+### Option 3: Create a Custom Domain Site
+
+If you want a cleaner URL like `gds-local.github.io`:
+
+1. Create a new repository named `gds-local.github.io`
+2. Upload `index.html` and `styles.css` to this repository
+3. Go to Settings > Pages
+4. The site will automatically be available at: https://gds-local.github.io/
+
+## Customizing the Site
+
+### Adding Blog Posts
+
+To add blog posts, you can:
+1. Create additional HTML files (e.g., `post-1.html`, `post-2.html`)
+2. Link to them from the main `index.html` page
+3. Copy the post structure from `index.html`
+
+### Updating Content
+
+- Edit `index.html` to change the main page content
+- Edit `styles.css` to adjust the visual styling
+- All content follows GDS design patterns and accessibility standards
+
+## Design Features
+
+This site includes:
+- GOV.UK Design System styling
+- Accessible skip links
+- Responsive layout (mobile and desktop)
+- GDS crown logo and branding
+- Sidebar with useful links
+- Footer with Open Government Licence information
+
+## Accessibility
+
+The site follows WCAG 2.1 AA standards:
+- Keyboard navigation support
+- Screen reader friendly
+- High contrast colors
+- Focus indicators
+- Semantic HTML
+
+## License
+
+Content is available under the Open Government Licence v3.0
